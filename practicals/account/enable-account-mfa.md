@@ -16,6 +16,6 @@
 
 ![mfa-qr-code](../../images/iam/mfa-qr-code.JPG)
 
-1. Once you have set up your MFA you should see the screen below
+5. Once you have set up your MFA you should see the screen below
 
 ![successful-mfa](../../images/iam/successful-mfa.JPG)
