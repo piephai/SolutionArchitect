@@ -36,6 +36,12 @@ Originally when you first create your AWS you are signed in as a ```Root User```
 
 Your AWS account has full trust on your IAM. As such, IAM as a service can have the same permissions as the root user with exception to billing and payment. 
 
+- No Cost
+- Global Service / Global resilience
+- Allow or Deny its identities on AWS account
+- No direct control on external accounts or users
+- Identity federation and MFA
+
 ### **IAM User**
 
 An IAM user is an identity which present humans or applications that need access to your account. An access and secret key can be generated for an IAM user which can then be used for AWS CLI or AWS SDK.
@@ -48,7 +54,7 @@ Collection of related users e.g. development team, finance or HR. Each IAM Group
 
 Can be used by AWS Services, or for granting external access to your account. A role can be used to grant access to your account to an uncertain number of entities. For example, if you want all EC2 in your account to be able to access the S3 bucket, then you can create an IAM role with permission to S3 and use that role within all of your EC2s. 
 
-### IAM Policy
+### **IAM Policy**
 
 IAM Policies essentially a document that used to alow or deny access to AWS services. These policies are attached to IAM User, Group and Role. On its own IAM Policy cannot do anything.
 
